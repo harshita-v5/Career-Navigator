@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Career Advisor</title>
+</head>
+<body>
+    <nav class="navbar">
+  <div class="nav-logo">Career Navigator</div>
+  <ul class="nav-links">
+    <li><a href="../index.html">Home</a></li>
+    <!-- <li><a href="ai.html">Resume Upload</a></li> -->
+    <li><a href="career_insights.html">Insights</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+    <div class="container">
+        <form class="career-form">
+            <h1>Career Insights</h1>
+
+            <label style="font-size: 30px;" >Upload Your Resume (PDF/DOCX):</label>
+           <input type="file" accept=".pdf,.docx,.doc" style="font-size: 30px;">
+
+           <label style="font-size: 30px;">Enter Your Skills (Comma-Separated):</label>
+           <input type="text" placeholder="ML,Python,SQL" style="font-size: 30px;">
+
+           <label >Select Country:</label>
+           <select>
+            <option style="font-size: clamp(1rem, 2.5vw, 2rem);">India</option>
+            <option style="font-size: clamp(1rem, 2.5vw, 2rem);">USA</option>
+            <option style="font-size: clamp(1rem, 2.5vw, 2rem);">Canada</option>
+            <option style="font-size: clamp(1rem, 2.5vw, 2rem);">UK</option>
+           </select>
+
+           <label>Year Of Experience:</label>
+           <input type="number" min="0",max="35" placeholder="0" style="font-size: clamp(1rem, 2.5vw, 2rem);">
+
+           <button type="submit" style="font-size: clamp(1rem, 2.5vw, 2rem);">Get Career Insights</button>
+        </form>
+    </div>
+    <script src="../script.js"></script>
+</body>
+</html>
