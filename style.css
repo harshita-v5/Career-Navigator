@@ -140,14 +140,7 @@ body {
   background-color: #34495e;
 }
 
-/* Container and Form */
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 100px;
-  padding-bottom: 60px;
-}
+
 
 .career-form {
   background-color: white;
@@ -156,6 +149,8 @@ body {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   max-width: 600px;
   width: 100%;
+  margin: auto;
+  margin-top: 5%;
 }
 
 .career-form h1 {
@@ -201,3 +196,101 @@ body {
 .career-form button:hover {
   background-color: #388E3C;
 }
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+label {
+  margin-top: 10px;
+  align-self: flex-start;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+input[type="text"] {
+  margin-top: 5px;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+p {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+/* contact */
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: 40px auto;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 10%;
+  border: none;
+}
+.contact-form{
+  border: none;
+}
+.contact-section h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: bolder;
+}
+
+.contact-section p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form select {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.contact-form button{
+   width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
